@@ -1,6 +1,6 @@
 ---
-permalink: /
 title: "Lausanne Theory for Empirical Econ. Reading Group"
+permalink: /reading_group/
 author_profile: true
 ---
 
