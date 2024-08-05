@@ -1,5 +1,5 @@
 ---
-title: "Lausanne Theory for Empirical Econ. Reading Group"
+title: ""
 permalink: /reading_group/
 author_profile: true
 ---
