@@ -49,3 +49,4 @@ You can access a PDF copy of my CV [here](/files/pdf/CV_julian_marcoux.pdf).
 
 
 
+.
