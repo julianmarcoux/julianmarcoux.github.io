@@ -1,6 +1,7 @@
 ---
 permalink: /
-title: "About me"
+title: "PhD Candidate in Economics"
+excerpt: ""
 author_profile: true
 redirect_from: 
   - /about/
