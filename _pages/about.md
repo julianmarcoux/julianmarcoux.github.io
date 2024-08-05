@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 About me 
-====
+------
 
 Welcome! I am a third-year PhD student in the Department of Economics at the [University of Lausanne](https://www.unil.ch/de/home.html), under the supervision of [Mathias Thoenig](https://people.unil.ch/mathiasthoenig/) and [Mathieu Couttenier](https://sites.google.com/site/coutteniermathieu/home). 
 
