@@ -19,7 +19,7 @@ If you are interested to join the reading group, to present or to be part of the
 
 
 
-We are happy to particapte to the Rare Voices Micro Research Cluster !
+We are happy to participate to the Rare Voices Micro Research Cluster !
 --------------------
 
 Approximately once per month, the Lausanne Theory for Empirical Economics Reading Group and Seminar joins the [Rare Voices Micro Research Cluster](https://www.rarevoicesineconomics.com/research-clusters) to attend presentations by PhD students from the [University of Lausanne](https://www.unil.ch/de/home.html), the [University of Geneva](https://www.unige.ch/gsem/en/), and the [Graduate Institute](https://www.graduateinstitute.ch/academic-departments/international-economics). For 1.5 hours, one or two PhD students present their research in a seminar-style setting and receive feedback.
