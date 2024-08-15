@@ -7,4 +7,4 @@ redirect_from:
   - /resume
 ---
 
-You can access a pdf version of my CV [here]((/files/pdf/CV_julian_marcoux.pdf)). 
+You can access a pdf version of my CV [here](/files/pdf/CV_julian_marcoux.pdf). 
