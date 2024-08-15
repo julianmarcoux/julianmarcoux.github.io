@@ -21,7 +21,7 @@ repository               : "julianmarcoux/julianmarcoux.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "julian_marcoux_photo.png"
   name             : "Julian Marcoux"
   pronouns         : # example: "she/her"  
   bio              : "PhD student in Economics at the University of Lausanne (HEC)"
