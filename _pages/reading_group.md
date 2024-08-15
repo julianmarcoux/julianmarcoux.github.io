@@ -1,5 +1,5 @@
 ---
-title: "Research"
+title: ""
 permalink: /reading_group/
 author_profile: true
 ---
