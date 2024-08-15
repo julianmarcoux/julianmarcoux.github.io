@@ -16,7 +16,7 @@ Finally, the reading group is also held on Zoom to allow external PhD students t
 - Zoom link: TBA
 
 
-The LTAM is happy to join the Rare Voices Micro Research Cluster Seminar
+The LTAM joins the Rare Voices Micro Research Cluster Seminar
 =========
 
 Once per month, the LTAM joins the [Rare Voices Micro Research Cluster Seminar] to attend presentations by PhD students from the [University of Lausanne], the [University of Geneva], and the [Graduate Institute]. 
