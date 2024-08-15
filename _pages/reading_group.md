@@ -1,6 +1,6 @@
 ---
 title: "Research"
-permalink: /research/
+permalink: /reading_group/
 author_profile: true
 ---
 
