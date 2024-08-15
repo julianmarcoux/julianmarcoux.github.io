@@ -5,10 +5,9 @@
 # prevent it from being included in the site.
 
 main:
-  - title: "Lausanne Theory for Applied Micro"
-    url: /reading_group/
+
     
- - title: "CV"
+   - title: "CV"
     url: /cv/
  
   #- title: "Publications"
