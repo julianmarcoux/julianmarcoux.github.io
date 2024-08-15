@@ -4,9 +4,17 @@
 # links. Removing a link prevents it from showing in the header, but does not
 # prevent it from being included in the site.
 
+# WARNING: beware of the indentation (like loops in Python), otherwise it will not work
+
 main:
-  - title: "Portfolio"
-    url: /portfolio/
+  - title: "Research"
+    url: /research/
+  
+  - title: "Lausanne Theory for Applied Micro"
+    url: /reading_group/
+  
+  - title: "CV"
+    url: /cv/
         
   #- title: "Blog Posts"
   #  url: /year-archive/
