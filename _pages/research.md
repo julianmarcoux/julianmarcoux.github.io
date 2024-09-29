@@ -14,4 +14,4 @@ Working papers
 Work in progress
 --------------
 
-_Coming soon
+_Coming soon_
