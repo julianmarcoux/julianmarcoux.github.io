@@ -15,8 +15,8 @@ Finally, the reading group is also held on Zoom, allowing external PhD students 
 
 **Information:**
 
-- When: TBA
-- Where: TBA
+- When: October 10th, October 24th, November 7th, November 21th, December 5th and December 19th
+- Where: Extranef 109
 - Zoom link: TBA
 
 
