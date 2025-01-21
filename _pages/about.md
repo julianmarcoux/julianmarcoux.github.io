@@ -10,7 +10,9 @@ redirect_from:
 
 About me 
 -------------
-Welcome ! I am a third-year PhD student in Economics at the [University of Lausane (HEC)](), under the supervision of Pr. [Mathias Thoenig](https://people.unil.ch/mathiasthoenig/) and Pr. [Mathieu Couttenier](https://sites.google.com/site/coutteniermathieu/). My research applies quantitative spatial and international economics tools to study development and political economy, focusing on conflicts, geoeconomics, and development questions. 
+Welcome ! I am a third-year PhD student in Economics at the [University of Lausane (HEC)](https://www.unil.ch/de/en/home.html), under the supervision of Prof. [Mathias Thoenig](https://people.unil.ch/mathiasthoenig/), Prof. [Aurélien Eyquem](http://aeyq.free.fr/) and Prof. [Mathieu Couttenier](https://sites.google.com/site/coutteniermathieu/).
+
+I specialize in international economics and quantitative spatial economics. More specifically, my research applies tools from these fields to study development and political economy, focusing mainly on conflicts, geoeconomics, and national security. 
 
 News  
 -------------
