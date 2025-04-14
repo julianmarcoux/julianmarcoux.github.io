@@ -15,7 +15,7 @@ For one hour, PhD students discuss a paper or one or two PhD students presents t
 
 - When: Every two weeks
 - Where: **Intranef 149**
-- Zoom link: If you would like to attend via Zoom, please send me an email !
+- Zoom link: If you would like to attend via Zoom, please send me an email!
 
 
 The LTAM joins the Rare Voices Micro Research Cluster Seminar
