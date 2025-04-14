@@ -16,11 +16,13 @@ I specialize in international macroeconomics, international trade and quantitati
 
 News  
 -------------
-[March, 2025] I will have the opportunity to do a short visiting  stayin August at the [Global Capital Allocation Lab](https://www.globalcapitalallocation.com/), invited by Professor [Matteo Maggiori](https://www.matteomaggiori.com/). If you are in California, do not hesitate to reach out !
+[April, 2025] I will be presenting my JMP at the Lausanne PhD Macro Workshop on **June 4th**. If you are in Switzerland, do not hesitate to drop by!
 
-[January, 2025] My paper "The Gravity of Violence" (joint with Mathieu Couttenier, Thierry Mayer and Mathias Thoenig) is now R&R at the Journal of Political Economy ! The new version will be posted soon. 
+[March, 2025] I will have the opportunity to do a short visiting stay in **August** at the [Global Capital Allocation Lab](https://www.globalcapitalallocation.com/), invited by Professor [Matteo Maggiori](https://www.matteomaggiori.com/). If you are in California, do not hesitate to reach out!
+
+[January, 2025] My paper "The Gravity of Violence" (joint with Mathieu Couttenier, Thierry Mayer and Mathias Thoenig) is now R&R at the Journal of Political Economy! The new version will be posted soon. 
 
 [September, 2024] My paper "The Gravity of Violence" (joint with Mathieu Couttenier, Thierry Mayer and Mathias Thoenig), has been released as a [CEPR Discussion Paper](https://cepr.org/publications/dp19527). You can download the paper [here](https://drive.google.com/file/d/1EmlnwO41rYt0nHe8506BVSpWk6HnPAIe/view).
 
-[August, 2024] We are excited to announce the launch of the Lausanne Theory for Applied Micro Reading Group and Seminar, which I co-founded and co-organize with [Geoffrey Hilton](https://geoffreyhilton.github.io/). Learn more about it [here](https://julianmarcoux.github.io/reading_group/) ! 
+[August, 2024] We are excited to announce the launch of the Lausanne Theory for Applied Micro Reading Group and Seminar, which I co-founded and co-organize with [Geoffrey Hilton](https://geoffreyhilton.github.io/). Learn more about it [here](https://julianmarcoux.github.io/reading_group/)! 
 
