@@ -9,15 +9,13 @@ About the LTAM
 
 This reading group is tailored for PhD students interested in research using economic theory to answer empirical questions. This may include pure theory, applied theory, structural work, or even theoretically-motivated reduced form approaches. Some examples include contract theory or quantitative spatial economics for development economics and structural models for political economy. 
 
-Each week, for one hour, PhD students discuss a paper or one or two PhD students presents their research. Post-doctoral fellows and faculty often joined. 
-
-Finally, the reading group is also held on Zoom, allowing external PhD students to join and participate, which is greatly encouraged.
+For one hour, PhD students discuss a paper or one or two PhD students presents their research. Post-doctoral fellows and faculty often joined. 
 
 **Information:**
 
-- When: **October 10th**, **October 24th**, **November 7th**, **November 21th**, **December 5th** and **December 19th**
-- Where: **Extranef 109**
-- Zoom link: TBA
+- When: Every two weeks
+- Where: **Intranef 149**
+- Zoom link: If you would like to attend via Zoom, please send me an email !
 
 
 The LTAM joins the Rare Voices Micro Research Cluster Seminar
