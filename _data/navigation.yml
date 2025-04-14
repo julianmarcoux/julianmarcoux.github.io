@@ -9,15 +9,16 @@
 main:
   - title: "Research"
     url: /research/
-
+  
+  - title: "CV"
+    url: /cv/
+    
   - title: "Lausanne Theory for Applied Micro"
     url: /reading_group/
     
   - title: "2025 Lausanne Macro PhD Conference"
     url: /conf_2025/
     
-  - title: "CV"
-    url: /cv/
         
   #- title: "Blog Posts"
   #  url: /year-archive/
