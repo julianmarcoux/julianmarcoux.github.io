@@ -14,8 +14,12 @@ Welcome! I am a third-year PhD student in Economics at the [University of Lausan
 
 I specialize in international macroeconomics, international trade and quantitative spatial economics. More specifically, my research applies tools from these fields to study development and political economy, focusing mainly on conflicts, geoeconomics, and energy security. 
 
+I am one of the recipients of the [Dartmouth Globalization Ph.D. Fellowship](https://globalization.dartmouth.edu/programs/globalization-phd-fellows) and will have the opportunity to visit the Department of Economics at [Dartmouth](https://economics.dartmouth.edu/) in Spring 2016.
+
 News  
 -------------
+[May, 2025] I am thrilled to share that I will be joining the Department of Economics at Dartmouth as a Globalization Ph.D. Fellow!
+
 [April, 2025] I will be presenting my JMP at the Lausanne PhD Macro Workshop on **June 4th** and at the AMSE PhD Seminar on **June 10th**. I will be presenting "The Gravity of Violence" (joint with Mathieu Couttenier, Thierry Mayer and Mathias Thoenig) at the [7th International Conference on European Economics and Politics](https://cefes-dems.unimib.it/events/conferences/cefesconf2025/). If you are around, do not hesitate to drop by!
 
 [March, 2025] I will have the opportunity to do a short visiting stay in **August** at the [Global Capital Allocation Lab](https://www.globalcapitalallocation.com/), invited by Professor [Matteo Maggiori](https://www.matteomaggiori.com/). If you are in California, do not hesitate to reach out!
