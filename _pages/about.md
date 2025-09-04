@@ -14,7 +14,7 @@ Welcome! I am a third-year PhD student in Economics at the [University of Lausan
 
 I specialize in international macroeconomics, international trade and quantitative spatial economics. More specifically, my research applies tools from these fields to study development and political economy, focusing mainly on conflicts, geoeconomics, and energy security. 
 
-I am one of the recipients of the [Dartmouth Globalization Ph.D. Fellowship](https://globalization.dartmouth.edu/programs/globalization-phd-fellows) and will have the opportunity to visit the Department of Economics at [Dartmouth College](https://economics.dartmouth.edu/) in Spring 2016.
+I am one of the recipients of the [Dartmouth Globalization Ph.D. Fellowship](https://globalization.dartmouth.edu/programs/globalization-phd-fellows) and will have the opportunity to visit the Department of Economics at [Dartmouth College](https://economics.dartmouth.edu/) in Spring 2026.
 
 News  
 -------------
