@@ -13,11 +13,11 @@ main:
   - title: "CV"
     url: /cv/
     
-  - title: "Lausanne Theory for Applied Micro"
-    url: /reading_group/
+  - title: "Conferences"
+    url: /activities/
     
-  - title: "2025 Lausanne Macro PhD Conference"
-    url: /conf_2025/
+  #- title: "2025 Lausanne Macro PhD Conference"
+  #  url: /conf_2025/
     
         
   #- title: "Blog Posts"
