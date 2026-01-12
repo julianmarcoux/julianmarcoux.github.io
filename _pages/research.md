@@ -13,6 +13,7 @@ Working papers
 
 Work in progress
 --------------
-- "Geopolitical tensions, energy security and the green transition" (2025)
+- "Guns or Roses? Military Deterrence and Energy Security" (2026)
 _Job Market Paper, draft coming soon_
 
+- "The Macroeconomics of Energy Security" (2026), with [Viktor Gradoux](https://viktor-gradoux.github.io/)
