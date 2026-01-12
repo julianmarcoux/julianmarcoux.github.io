@@ -12,13 +12,13 @@ About me
 -------------
 Welcome! I am a third-year PhD student in Economics at the [University of Lausanne (HEC Lausanne)](https://www.unil.ch/de/en/home.html), under the supervision of Prof. [Mathias Thoenig](https://people.unil.ch/mathiasthoenig/), Prof. [Aurélien Eyquem](http://aeyq.free.fr/) and Prof. [Mathieu Couttenier](https://sites.google.com/site/coutteniermathieu/).
 
-I specialize in international macroeconomics, international trade and quantitative spatial economics. More specifically, my research applies tools from these fields to study development and political economy, focusing mainly on conflicts, geoeconomics, and energy security. 
+I specialize in international macroeconomics, international trade and quantitative spatial economics, focusing mainly on conflicts, geoeconomics, and energy security. 
 
-I am one of the recipients of the [Dartmouth Globalization Ph.D. Fellowship](https://globalization.dartmouth.edu/programs/globalization-phd-fellows) and will have the opportunity to visit the Department of Economics at [Dartmouth College](https://economics.dartmouth.edu/) in Spring 2026.
+I am one of the recipients of the [Dartmouth Globalization Ph.D. Fellowship](https://globalization.dartmouth.edu/programs/globalization-phd-fellows) and will have the opportunity to visit the Department of Economics at [Dartmouth College](https://economics.dartmouth.edu/) in Spring 2026 (March-June).
 
 News  
 -------------
-[May, 2025] I am thrilled to share that I will be joining the Department of Economics at Dartmouth as a Globalization Ph.D. Fellow!
+[May, 2025] I am thrilled to share that I will be joining the Department of Economics at Dartmouth as a Globalization Ph.D. Fellow (30th March-6th June)!
 
 [April, 2025] I will be presenting my JMP at the Lausanne PhD Macro Workshop on **June 18th**. I will be presenting "The Gravity of Violence" (joint with Mathieu Couttenier, Thierry Mayer and Mathias Thoenig) at the [7th International Conference on European Economics and Politics](https://cefes-dems.unimib.it/events/conferences/cefesconf2025/). If you are around, do not hesitate to drop by!
 
