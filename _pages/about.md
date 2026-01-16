@@ -18,6 +18,8 @@ I am one of the recipients of the [Dartmouth Globalization Ph.D. Fellowship](htt
 
 News  
 -------------
+[Jan, 2026] I will have the chance to visit the Kiel Institute in Berlin from January to March 2026. If you are in beautiful Berlin, do not hesitate to reach out!
+
 [May, 2025] I am thrilled to share that I will be joining the Department of Economics at Dartmouth as a Globalization Ph.D. Fellow (30th March-6th June)!
 
 [April, 2025] I will be presenting my JMP at the Lausanne PhD Macro Workshop on **June 18th**. I will be presenting "The Gravity of Violence" (joint with Mathieu Couttenier, Thierry Mayer and Mathias Thoenig) at the [7th International Conference on European Economics and Politics](https://cefes-dems.unimib.it/events/conferences/cefesconf2025/). If you are around, do not hesitate to drop by!
