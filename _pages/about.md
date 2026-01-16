@@ -10,7 +10,7 @@ redirect_from:
 
 About me 
 -------------
-Welcome! I am a third-year PhD student in Economics at the [University of Lausanne (HEC Lausanne)](https://www.unil.ch/de/en/home.html), under the supervision of Prof. [Mathias Thoenig](https://people.unil.ch/mathiasthoenig/), Prof. [Aurélien Eyquem](http://aeyq.free.fr/) and Prof. [Mathieu Couttenier](https://sites.google.com/site/coutteniermathieu/).
+Welcome! I am a forth-year PhD student in Economics at the [University of Lausanne (HEC Lausanne)](https://www.unil.ch/de/en/home.html), under the supervision of Prof. [Mathias Thoenig](https://people.unil.ch/mathiasthoenig/) (chair), Prof. [Aurélien Eyquem](http://aeyq.free.fr/) (co-chair) and Prof. [Mathieu Couttenier](https://sites.google.com/site/coutteniermathieu/) (external).
 
 I specialize in international macroeconomics, international trade and quantitative spatial economics, focusing mainly on conflicts, geoeconomics, and energy security. 
 
