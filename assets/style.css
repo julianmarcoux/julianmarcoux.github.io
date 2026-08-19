@@ -28,6 +28,10 @@ header.site{display:flex;gap:28px;align-items:center}
 }
 h1{font-family:Inter,sans-serif;font-weight:700;font-size:30px;letter-spacing:-.02em}
 .tagline{font-family:Inter,sans-serif;color:var(--muted);font-size:15px;margin-top:5px;line-height:1.5}
+.email-line{font-family:Inter,sans-serif;font-size:13.5px;font-weight:500;margin-top:6px}
+.email-line .email-label{color:var(--muted);font-weight:600}
+.email-line a{color:#0e8aa3}
+.email-line a:hover{border-bottom-color:#0e8aa3}
 .links{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
 .links a{
   font-family:Inter,sans-serif;font-size:13px;font-weight:500;
@@ -67,7 +71,15 @@ ul.plain{padding-left:22px}
 ul.plain li{margin-top:6px}
 
 /* Paper entry */
-.paper{padding:16px 18px;background:var(--accent-soft);border-radius:10px}
+.paper{padding:16px 18px;background:var(--accent-soft);border-radius:10px;
+  display:flex;gap:18px;align-items:flex-start}
+.paper .body{flex:1 1 50%;min-width:0}
+.paper .fig{
+  flex:1 1 50%;min-width:0;background:#fff;border:1px solid var(--line);
+  border-radius:8px;padding:6px 8px;
+  align-self:stretch;display:flex;align-items:center;justify-content:center;
+}
+.paper .fig img{width:100%;height:auto;display:block}
 .paper + .paper,h3 + .paper{margin-top:0}
 .paper + h3{margin-top:26px}
 .paper .title{font-weight:600;font-size:17px}
@@ -127,6 +139,10 @@ footer{margin-top:64px;padding-top:18px;border-top:1px solid var(--line);
   font-family:Inter,sans-serif;font-size:12.5px;color:var(--muted);
   display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
 
+@media (max-width:640px){
+  .paper{flex-direction:column}
+  .paper .fig{width:100%;align-self:flex-start}
+}
 @media (max-width:560px){
   header.site{flex-direction:column;align-items:flex-start;gap:16px}
   .rows li{grid-template-columns:1fr}
