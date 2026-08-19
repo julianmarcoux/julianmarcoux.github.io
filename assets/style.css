@@ -1,0 +1,134 @@
+/* Julian Marcoux — site stylesheet */
+:root{
+  --ink:#191d22;
+  --muted:#5c6570;
+  --line:#e4e7ea;
+  --accent:#1d5f8f;
+  --accent-soft:#eef4f9;
+  --bg:#ffffff;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{
+  font-family:"Source Serif 4",Georgia,serif;
+  color:var(--ink);background:var(--bg);
+  font-size:17px;line-height:1.65;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:720px;margin:0 auto;padding:56px 24px 80px}
+a{color:var(--accent);text-decoration:none;border-bottom:1px solid transparent;transition:border-color .15s}
+a:hover{border-bottom-color:var(--accent)}
+a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+/* Header */
+header.site{display:flex;gap:28px;align-items:center}
+.photo{
+  width:110px;height:110px;border-radius:50%;flex-shrink:0;
+  object-fit:cover;object-position:center 20%;
+  border:1px solid var(--line);
+}
+h1{font-family:Inter,sans-serif;font-weight:700;font-size:30px;letter-spacing:-.02em}
+.tagline{font-family:Inter,sans-serif;color:var(--muted);font-size:15px;margin-top:5px;line-height:1.5}
+.links{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.links a{
+  font-family:Inter,sans-serif;font-size:13px;font-weight:500;
+  padding:4px 12px;border:1px solid var(--line);border-radius:99px;
+  color:var(--ink);
+}
+.links a:hover{border-color:var(--accent);color:var(--accent)}
+
+/* Small back-link header for subpages */
+.crumb{
+  font-family:Inter,sans-serif;font-size:13.5px;font-weight:600;
+  margin-bottom:36px;
+}
+.crumb a{color:var(--muted)}
+.crumb a:hover{color:var(--accent);border-bottom-color:transparent}
+.page-title{
+  font-family:Inter,sans-serif;font-weight:700;font-size:26px;letter-spacing:-.02em;
+  margin-bottom:6px;
+}
+.page-subtitle{font-family:Inter,sans-serif;color:var(--muted);font-size:15px;margin-bottom:8px}
+
+/* Sections */
+section{margin-top:44px}
+h2{
+  font-family:Inter,sans-serif;font-size:13px;font-weight:600;
+  letter-spacing:.14em;text-transform:uppercase;color:var(--muted);
+  padding-bottom:10px;border-bottom:1px solid var(--line);margin-bottom:18px;
+}
+h3{
+  font-family:Inter,sans-serif;font-size:12px;font-weight:600;
+  letter-spacing:.1em;text-transform:uppercase;color:var(--accent);
+  margin:22px 0 12px;
+}
+section h3:first-of-type{margin-top:0}
+p + p{margin-top:12px}
+ul.plain{padding-left:22px}
+ul.plain li{margin-top:6px}
+
+/* Paper entry */
+.paper{padding:16px 18px;background:var(--accent-soft);border-radius:10px}
+.paper + .paper,h3 + .paper{margin-top:0}
+.paper + h3{margin-top:26px}
+.paper .title{font-weight:600;font-size:17px}
+.paper .meta{font-family:Inter,sans-serif;font-size:13px;color:var(--muted);margin-top:3px}
+.paper .tags{margin-top:8px;display:flex;gap:6px;flex-wrap:wrap}
+.paper .tags a{
+  font-family:Inter,sans-serif;font-size:12px;font-weight:500;
+  background:#fff;border:1px solid var(--line);border-radius:6px;padding:3px 9px;color:var(--ink);
+}
+.paper .tags a:hover{border-color:var(--accent);color:var(--accent)}
+.badge{
+  font-family:Inter,sans-serif;font-size:11px;font-weight:600;color:#fff;
+  background:var(--accent);border-radius:5px;padding:2px 7px;vertical-align:2px;margin-left:6px;
+  letter-spacing:.04em;white-space:nowrap;
+}
+details.abstract{margin-top:10px}
+details.abstract summary{
+  cursor:pointer;font-family:Inter,sans-serif;font-size:12.5px;font-weight:500;
+  color:var(--muted);list-style:none;user-select:none;
+}
+details.abstract summary::-webkit-details-marker{display:none}
+details.abstract summary::before{content:"\25B8  ";color:var(--accent)}
+details.abstract[open] summary::before{content:"\25BE  "}
+details.abstract p{font-size:15px;margin-top:8px;color:#3c434b}
+
+/* Row lists (Teaching / Activities / Visiting) */
+.rows{list-style:none}
+.rows li{
+  display:grid;grid-template-columns:1fr auto;gap:4px 16px;
+  padding:12px 0;border-bottom:1px dotted var(--line);
+}
+.rows li:last-child{border-bottom:none}
+.rows .what{font-weight:600;font-size:16px}
+.rows .when{
+  font-family:Inter,sans-serif;font-size:12.5px;font-weight:600;
+  color:var(--accent);white-space:nowrap;align-self:baseline;
+}
+.rows .role{
+  grid-column:1/-1;
+  font-family:Inter,sans-serif;font-size:13.5px;color:var(--muted);
+}
+
+/* Info callout (used on reading group page) */
+.callout{
+  background:var(--accent-soft);border-radius:10px;padding:14px 18px;
+  font-size:15.5px;margin-top:14px;
+}
+.callout ul{list-style:none}
+.callout li{padding:3px 0}
+.callout .k{
+  font-family:Inter,sans-serif;font-size:12px;font-weight:600;
+  letter-spacing:.06em;text-transform:uppercase;color:var(--accent);
+  display:inline-block;min-width:64px;
+}
+
+footer{margin-top:64px;padding-top:18px;border-top:1px solid var(--line);
+  font-family:Inter,sans-serif;font-size:12.5px;color:var(--muted);
+  display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+
+@media (max-width:560px){
+  header.site{flex-direction:column;align-items:flex-start;gap:16px}
+  .rows li{grid-template-columns:1fr}
+  .rows .when{order:-1}
+}
