@@ -80,7 +80,8 @@ ul.plain li{margin-top:6px}
   align-self:stretch;display:flex;align-items:center;justify-content:center;
 }
 .paper .fig img{width:100%;height:auto;display:block}
-.paper + .paper,h3 + .paper{margin-top:0}
+.paper + .paper{margin-top:14px}
+h3 + .paper{margin-top:0}
 .paper + h3{margin-top:26px}
 .paper .title{font-weight:600;font-size:17px}
 .paper .meta{font-family:Inter,sans-serif;font-size:13px;color:var(--muted);margin-top:3px}
