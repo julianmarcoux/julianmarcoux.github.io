@@ -65,7 +65,7 @@
         <a href="/files/pdf/Gradoux_Marcoux_Oil_Shipping_and_Pirates.pdf" download="Gradoux_Marcoux_Oil_Shipping_and_Pirates.pdf">PDF</a>
       </div>
       </div>
-      <div class="fig"><img src="/images/oil_tankers_map.png" alt="Map of retained attacks on crude and heavy fuel oil tankers, 2010–2024"></div>
+      <a class="fig zoom" href="/images/oil_tankers_map.png" aria-label="Enlarge map of attacks on oil tankers"><img src="/images/oil_tankers_map_thumb.png" alt="Map of attacks on crude and heavy fuel oil tankers between the Red Sea and the Arabian Sea, 2010–2024"></a>
       </div>
       <details class="abstract">
         <summary>Abstract</summary>
@@ -149,5 +149,26 @@
     <span>Last updated October 2026</span>
   </footer>
 </div>
+
+<dialog class="lightbox" id="lightbox">
+  <img src="" alt="">
+  <button class="close" type="button">Close</button>
+</dialog>
+<script>
+(function(){
+  var d=document.getElementById('lightbox');
+  if(!d||typeof d.showModal!=='function') return; /* old browsers: link just opens the image */
+  var im=d.querySelector('img');
+  document.querySelectorAll('a.fig.zoom').forEach(function(a){
+    a.addEventListener('click',function(e){
+      e.preventDefault();
+      im.src=a.getAttribute('href');
+      im.alt=a.querySelector('img').alt;
+      d.showModal();
+    });
+  });
+  d.addEventListener('click',function(){d.close();}); /* click anywhere closes */
+})();
+</script>
 </body>
 </html>
