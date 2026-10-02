@@ -80,6 +80,30 @@ ul.plain li{margin-top:6px}
   display:flex;align-items:center;justify-content:center;
 }
 .paper .fig img{width:100%;height:auto;display:block}
+/* Fixed figure height so every paper card has the same size */
+.paper .fig{height:118px;align-self:center;overflow:hidden}
+.paper .fig img{max-height:100%;object-fit:contain}
+/* Zoomable figure: thumbnail fills the box, click opens the full figure */
+.paper .fig.zoom{padding:0;cursor:zoom-in;position:relative;border-bottom:1px solid var(--line)}
+.paper .fig.zoom img{width:100%;height:100%;max-height:none;object-fit:cover}
+.paper .fig.zoom::after{
+  content:"Click to enlarge";position:absolute;right:6px;bottom:6px;
+  font-family:Inter,sans-serif;font-size:11px;font-weight:500;color:var(--ink);
+  background:rgba(255,255,255,.9);border:1px solid var(--line);border-radius:5px;padding:2px 7px;
+  opacity:0;transition:opacity .15s;
+}
+.paper .fig.zoom:hover::after,.paper .fig.zoom:focus-visible::after{opacity:1}
+.paper .fig.zoom:hover{border-color:var(--accent)}
+dialog.lightbox{
+  border:none;padding:0;background:transparent;max-width:96vw;max-height:94vh;margin:auto;
+}
+dialog.lightbox::backdrop{background:rgba(20,24,28,.82)}
+dialog.lightbox img{display:block;max-width:96vw;max-height:88vh;width:auto;height:auto;background:#fff;border-radius:8px}
+dialog.lightbox .close{
+  display:block;margin:8px auto 0;font-family:Inter,sans-serif;font-size:13px;font-weight:500;
+  color:#fff;background:transparent;border:1px solid rgba(255,255,255,.6);border-radius:99px;
+  padding:4px 14px;cursor:pointer;
+}
 .paper + .paper{margin-top:14px}
 h3 + .paper{margin-top:0}
 .paper + h3{margin-top:26px}
@@ -142,6 +166,7 @@ footer{margin-top:64px;padding-top:18px;border-top:1px solid var(--line);
 
 @media (max-width:640px){
   .paper .top{flex-direction:column}
+  .paper .fig{align-self:stretch;flex:none}
 }
 @media (max-width:560px){
   header.site{flex-direction:column;align-items:flex-start;gap:16px}
