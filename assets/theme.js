@@ -3,7 +3,6 @@
   'use strict';
   var root = document.documentElement;
   var preference = null;
-  var system = window.matchMedia('(prefers-color-scheme: dark)');
   try { preference = localStorage.getItem('jm-theme'); } catch (error) {}
   if (preference !== 'light' && preference !== 'dark') preference = null;
 
@@ -16,12 +15,7 @@
       button.setAttribute('aria-pressed', String(dark));
     });
   }
-  function followSystem() {
-    if (!preference) apply(system.matches ? 'dark' : 'light');
-  }
-  apply(preference || (system.matches ? 'dark' : 'light'));
-  if (system.addEventListener) system.addEventListener('change', followSystem);
-  else if (system.addListener) system.addListener(followSystem);
+  apply(preference || 'light');
 
   document.addEventListener('DOMContentLoaded', function () {
     apply(root.getAttribute('data-theme'));
