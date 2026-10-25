@@ -1,11 +1,25 @@
 /* Julian Marcoux — site stylesheet */
 :root{
-  --ink:#191d22;
-  --muted:#5c6570;
-  --line:#e4e7ea;
-  --accent:#1d5f8f;
-  --accent-soft:#eef4f9;
-  --bg:#ffffff;
+  color-scheme:light;
+  --ink:#20252a;
+  --muted:#56665e;
+  --line:#cadbd0;
+  --accent:#5146a0;
+  --accent-soft:#f2f0fa;
+  --bg:#f2f6f3;
+  --surface:#ffffff;
+  --badge-ink:#ffffff;
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --ink:#e5ede8;
+  --muted:#aebfb5;
+  --line:#34483d;
+  --accent:#c4b8ff;
+  --accent-soft:#302b43;
+  --bg:#101e1a;
+  --surface:#1a2b24;
+  --badge-ink:#101e1a;
 }
 *{box-sizing:border-box;margin:0;padding:0}
 body{
@@ -30,13 +44,13 @@ h1{font-family:Inter,sans-serif;font-weight:700;font-size:30px;letter-spacing:-.
 .tagline{font-family:Inter,sans-serif;color:var(--muted);font-size:15px;margin-top:5px;line-height:1.5}
 .email-line{font-family:Inter,sans-serif;font-size:13.5px;font-weight:500;margin-top:6px}
 .email-line .email-label{color:var(--muted);font-weight:600}
-.email-line a{color:#0e8aa3}
-.email-line a:hover{border-bottom-color:#0e8aa3}
+.email-line a{color:var(--accent)}
+.email-line a:hover{border-bottom-color:var(--accent)}
 .links{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
 .links a{
   font-family:Inter,sans-serif;font-size:13px;font-weight:500;
   padding:4px 12px;border:1px solid var(--line);border-radius:99px;
-  color:var(--ink);
+  color:var(--accent);background:var(--surface);
 }
 .links a:hover{border-color:var(--accent);color:var(--accent)}
 
@@ -71,7 +85,7 @@ ul.plain{padding-left:22px}
 ul.plain li{margin-top:6px}
 
 /* Paper entry */
-.paper{padding:16px 18px;background:var(--accent-soft);border-radius:10px}
+.paper{padding:16px 18px;background:var(--surface);border:1px solid var(--line);border-radius:10px}
 .paper .top{display:flex;gap:18px;align-items:stretch}
 .paper .body{flex:1 1 50%;min-width:0}
 .paper .fig{
@@ -88,7 +102,7 @@ ul.plain li{margin-top:6px}
 .paper .fig.zoom img{width:100%;height:100%;max-height:none;object-fit:cover}
 .paper .fig.zoom::after{
   content:"Click to enlarge";position:absolute;right:6px;bottom:6px;
-  font-family:Inter,sans-serif;font-size:11px;font-weight:500;color:var(--ink);
+  font-family:Inter,sans-serif;font-size:11px;font-weight:500;color:#20252a;
   background:rgba(255,255,255,.9);border:1px solid var(--line);border-radius:5px;padding:2px 7px;
   opacity:0;transition:opacity .15s;
 }
@@ -112,11 +126,11 @@ h3 + .paper{margin-top:0}
 .paper .tags{margin-top:8px;display:flex;gap:6px;flex-wrap:wrap}
 .paper .tags a{
   font-family:Inter,sans-serif;font-size:12px;font-weight:500;
-  background:#fff;border:1px solid var(--line);border-radius:6px;padding:3px 9px;color:var(--ink);
+  background:var(--accent-soft);border:1px solid var(--line);border-radius:6px;padding:3px 9px;color:var(--accent);
 }
 .paper .tags a:hover{border-color:var(--accent);color:var(--accent)}
 .badge{
-  font-family:Inter,sans-serif;font-size:11px;font-weight:600;color:#fff;
+  font-family:Inter,sans-serif;font-size:11px;font-weight:600;color:var(--badge-ink);
   background:var(--accent);border-radius:5px;padding:2px 7px;vertical-align:2px;margin-left:6px;
   letter-spacing:.04em;white-space:nowrap;
 }
@@ -128,7 +142,7 @@ details.abstract summary{
 details.abstract summary::-webkit-details-marker{display:none}
 details.abstract summary::before{content:"\25B8  ";color:var(--accent)}
 details.abstract[open] summary::before{content:"\25BE  "}
-details.abstract p{font-size:15px;margin-top:8px;color:#3c434b}
+details.abstract p{font-size:15px;margin-top:8px;color:var(--ink)}
 
 /* Row lists (Teaching / Activities / Visiting) */
 .rows{list-style:none}
@@ -164,6 +178,16 @@ footer{margin-top:64px;padding-top:18px;border-top:1px solid var(--line);
   font-family:Inter,sans-serif;font-size:12.5px;color:var(--muted);
   display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
 
+/* Keep the theme control in the document flow on every page. */
+.theme-bar{display:flex;justify-content:flex-end;margin-bottom:24px}
+.theme-toggle{
+  font-family:Inter,sans-serif;font-size:12px;font-weight:500;
+  color:var(--accent);background:var(--surface);border:1px solid var(--line);
+  border-radius:99px;padding:8px 14px;min-height:44px;cursor:pointer;
+}
+.theme-toggle:hover{border-color:var(--accent)}
+.theme-toggle:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+
 @media (max-width:640px){
   .paper .top{flex-direction:column}
   .paper .fig{align-self:stretch;flex:none}
@@ -173,3 +197,4 @@ footer{margin-top:64px;padding-top:18px;border-top:1px solid var(--line);
   .rows li{grid-template-columns:1fr}
   .rows .when{order:-1}
 }
+
