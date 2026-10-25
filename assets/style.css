@@ -2,11 +2,11 @@
 :root{
   color-scheme:light;
   --ink:#20252a;
-  --muted:#66635b;
-  --line:#dedbd2;
+  --muted:#64625e;
+  --line:#d9d7d2;
   --accent:#5146a0;
   --accent-soft:#f2f0fa;
-  --bg:#ede3dc;
+  --bg:#f2f1ee;
   --surface:#ffffff;
   --badge-ink:#ffffff;
 }
