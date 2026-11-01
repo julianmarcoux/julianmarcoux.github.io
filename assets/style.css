@@ -213,10 +213,13 @@ header.site-home{display:grid;grid-template-columns:156px minmax(0,1fr);gap:24px
 .site-home .profile .links{gap:6px;flex-wrap:nowrap;justify-content:center;margin-top:10px}
 .site-home .profile .links a{font-size:11px;padding:4px 7px;white-space:nowrap}
 .site-home .identity{min-width:0}
-.site-home .phd-status{font:400 13.5px/1.6 Inter,sans-serif;color:var(--muted);margin-top:5px}
-.site-home .advisors{font:400 13.5px/1.8 Inter,sans-serif;color:var(--muted);margin-top:16px}
+.site-home .phd-status,
+.site-home .advisors,
+.site-home .email-line{font:400 13.5px/1.6 Inter,sans-serif;color:var(--muted)}
+.site-home .phd-status{margin-top:5px}
+.site-home .advisors{margin-top:16px}
 .site-home .advisors a{white-space:nowrap}
-.site-home .advisors-label{font-weight:500}
+.site-home .advisors-label,.site-home .email-label{font-weight:400}
 .site-home .email-line{margin-top:18px;overflow-wrap:anywhere}
 @media(max-width:560px){
   header.site-home{display:flex;flex-direction:column;align-items:flex-start;gap:20px}
