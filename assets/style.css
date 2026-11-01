@@ -177,3 +177,31 @@ footer{margin-top:64px;padding-top:18px;border-top:1px solid var(--line);
 /* Paper honors remain visible without expanding the abstract. */
 .paper .award{margin-top:12px;font-family:Inter,sans-serif;font-size:12.5px;line-height:1.6;color:var(--muted)}
 .paper .award strong{color:var(--accent);font-weight:600}
+
+/* Side-by-side paper disclosures with one full-width panel at a time. */
+.paper-disclosures{margin-top:10px}
+.paper-disclosure-controls{display:flex;align-items:center;gap:24px}
+.paper-disclosure-controls button{
+  appearance:none;border:0;background:none;padding:4px 0;
+  font:500 12.5px/1.65 Inter,sans-serif;color:var(--muted);
+  cursor:pointer;text-align:left;
+}
+.paper-disclosure-controls button::before{content:"\25B8";color:var(--accent);margin-right:5px}
+.paper-disclosure-controls button[aria-expanded="true"]::before{content:"\25BE"}
+.paper-disclosure-controls button:hover{color:var(--accent)}
+.paper-disclosure-controls button:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:2px}
+.paper-abstract p{font-size:15px;margin-top:8px;color:#3c434b}
+.paper-presentations{margin-top:10px;font-family:Inter,sans-serif;color:var(--muted)}
+.presentation-year{
+  display:grid;grid-template-columns:48px minmax(0,1fr);align-items:center;
+  gap:0 16px;padding:13px 0;border-bottom:1px solid #ccc6e4;
+}
+.presentation-year:first-child{border-top:1px solid #ccc6e4}
+.presentation-year dt{font-size:13px;font-weight:700;color:var(--accent);text-align:center}
+.presentation-year dd{margin:0;font-size:12.5px;line-height:1.85}
+.presentation-status{font-size:.95em;color:var(--muted);font-weight:400}
+.paper-presentations .presentation-legend{font-size:11px;font-style:italic;line-height:1.6;margin-top:12px}
+@media(max-width:400px){
+  .presentation-year{grid-template-columns:40px minmax(0,1fr);column-gap:10px}
+  .paper-disclosure-controls{gap:20px}
+}
