@@ -205,3 +205,21 @@ footer{margin-top:64px;padding-top:18px;border-top:1px solid var(--line);
   .presentation-year{grid-template-columns:40px minmax(0,1fr);column-gap:10px}
   .paper-disclosure-controls{gap:20px}
 }
+
+/* Homepage identity, with academic links beneath the portrait. */
+header.site-home{display:grid;grid-template-columns:156px minmax(0,1fr);gap:24px;align-items:center}
+.site-home .profile{min-width:0}
+.site-home .photo{display:block;width:156px;height:195px}
+.site-home .profile .links{gap:6px;flex-wrap:nowrap;justify-content:center;margin-top:10px}
+.site-home .profile .links a{font-size:11px;padding:4px 7px;white-space:nowrap}
+.site-home .identity{min-width:0}
+.site-home .phd-status{font:400 13.5px/1.6 Inter,sans-serif;color:var(--muted);margin-top:5px}
+.site-home .advisors{font:400 11.5px/1.8 Inter,sans-serif;color:var(--muted);margin-top:16px}
+.site-home .advisors a{white-space:nowrap}
+.site-home .advisors-label{font-weight:500}
+.site-home .email-line{margin-top:18px;overflow-wrap:anywhere}
+@media(max-width:560px){
+  header.site-home{display:flex;flex-direction:column;align-items:flex-start;gap:20px}
+  .site-home .identity{width:100%}
+  .site-home .advisors{font-size:12px}
+}
