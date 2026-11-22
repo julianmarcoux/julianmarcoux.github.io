@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>One Dino a Day — Julian Marcoux</title>
+<meta name="description" content="Meet a different dinosaur every day, with a photo, fossil facts, and a link to Wikipedia.">
+<link rel="icon" href="/images/favicon.ico?v=chalkboard-20261101" sizes="16x16 32x32 48x48">
+<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-chalkboard-32.png">
+<link rel="icon" type="image/svg+xml" sizes="any" href="/images/favicon-chalkboard.svg">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon-chalkboard-180.png">
+<link rel="manifest" href="/images/site-chalkboard.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/style.css?v=20261101-coastal-portrait">
+<link rel="stylesheet" href="/assets/one-dino-a-day.css">
+<script src="/one-dino-a-day/daily-dino.js" defer></script>
+</head>
+<body>
+<main class="wrap dino-page">
+  <p class="crumb"><a href="/">← Julian Marcoux</a></p>
+
+  <header class="dino-heading">
+    <h1 class="page-title">One Dino a Day</h1>
+    <time id="dino-date" hidden></time>
+  </header>
+
+  <p class="dino-status" id="dino-status" role="status" hidden></p>
+  <noscript>
+    <p class="dino-status">Enable JavaScript to see the daily pick or browse <a href="https://en.wikipedia.org/wiki/List_of_dinosaur_genera">Wikipedia’s list of dinosaurs</a>.</p>
+  </noscript>
+
+  <article class="dino-entry" aria-labelledby="dino-name" hidden>
+    <h2 class="dino-name" id="dino-name"></h2>
+    <p class="dino-details" id="dino-details"></p>
+    <figure class="dino-photo" hidden>
+      <img decoding="async" alt="">
+      <figcaption>Image by <a id="dino-credit"></a> · <a id="dino-license"></a></figcaption>
+    </figure>
+    <dl class="dino-facts" aria-label="Dinosaur stats"></dl>
+    <p class="dino-intro" id="dino-intro"></p>
+    <nav class="dino-sources" aria-label="Dinosaur sources">
+      <a id="dino-wikipedia">Read more on Wikipedia <span aria-hidden="true">↗</span></a>
+      <a id="dino-stats-source">Stats source <span aria-hidden="true">↗</span></a>
+    </nav>
+  </article>
+</main>
+</body>
+</html>

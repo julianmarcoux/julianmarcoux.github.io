@@ -1,0 +1,188 @@
+/* Homepage link */
+.site-home {
+  position: relative;
+}
+
+.dino-home {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.dino-home .dino-home-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 6px 10px;
+  border: 1px solid #ded8ef;
+  border-radius: 99px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font: 500 12px/1.45 Inter, sans-serif;
+  white-space: nowrap;
+}
+
+.dino-home .dino-home-link:hover {
+  border-color: var(--accent);
+}
+
+.dino-home-note {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  display: none;
+  width: min(260px, calc(100vw - 48px));
+  padding: 9px 12px;
+  border: 1px solid var(--ink);
+  border-radius: 9px;
+  background: var(--ink);
+  box-shadow: 0 5px 18px rgb(25 29 34 / 12%);
+  color: var(--bg);
+  font: 500 12px/1.55 Inter, sans-serif;
+  text-align: center;
+}
+
+.dino-home:not(.note-dismissed) .dino-home-link:focus-visible + .dino-home-note {
+  display: block;
+}
+
+@media (hover: hover) {
+  .dino-home:not(.note-dismissed):hover .dino-home-note {
+    display: block;
+  }
+}
+
+@media (max-width: 560px) {
+  .dino-home {
+    position: relative;
+  }
+
+  .dino-home-note {
+    right: auto;
+    left: 0;
+  }
+}
+
+@media (pointer: coarse) {
+  .dino-home .dino-home-link {
+    min-height: 44px;
+  }
+}
+
+/* Daily feature */
+.dino-page .crumb {
+  margin-bottom: 24px;
+}
+
+.dino-heading {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 4px 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--line);
+}
+
+.dino-heading .page-title {
+  margin: 0;
+  line-height: 1.2;
+}
+
+.dino-heading time,
+.dino-details {
+  color: var(--muted);
+  font: 400 13px/1.55 Inter, sans-serif;
+}
+
+.dino-entry,
+.dino-status {
+  margin-top: 17px;
+}
+
+.dino-entry .dino-name {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: var(--ink);
+  font: 600 36px/1.12 "Source Serif 4", Georgia, serif;
+  letter-spacing: -.03em;
+  text-transform: none;
+  overflow-wrap: anywhere;
+}
+
+.dino-details {
+  margin-top: 5px;
+}
+
+.dino-photo {
+  margin-top: 16px;
+}
+
+.dino-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 390px;
+  border-radius: 10px;
+  background: var(--accent-soft);
+  object-fit: contain;
+}
+
+.dino-photo figcaption {
+  margin-top: 6px;
+  color: var(--muted);
+  font: 400 11px/1.5 Inter, sans-serif;
+  text-align: right;
+  overflow-wrap: anywhere;
+}
+
+.dino-facts {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr)) minmax(0, 1.45fr);
+  gap: 12px;
+  margin-top: 16px;
+  padding: 12px 0;
+  border-block: 1px solid var(--line);
+  font-family: Inter, sans-serif;
+}
+
+.dino-facts dt {
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.dino-facts dd {
+  margin-top: 3px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.dino-intro {
+  margin-top: 14px;
+}
+
+.dino-sources {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+  margin-top: 10px;
+  font: 600 13px/1.5 Inter, sans-serif;
+}
+
+@media (max-width: 560px) {
+  .dino-heading time {
+    flex-basis: 100%;
+  }
+
+  .dino-entry .dino-name {
+    font-size: clamp(25px, 7vw, 32px);
+  }
+
+  .dino-facts {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

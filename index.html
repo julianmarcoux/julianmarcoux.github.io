@@ -14,6 +14,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/style.css?v=20261101-coastal-portrait">
+<link rel="stylesheet" href="/assets/one-dino-a-day.css">
 </head>
 <body>
 <div class="wrap">
@@ -33,6 +34,10 @@
       <p class="phd-status">Fifth-year PhD student in Economics at HEC Lausanne</p>
       <p class="advisors"><span class="advisors-label">Advisors:</span> <a href="https://people.unil.ch/mathiasthoenig/">Mathias Thoenig</a> <span aria-hidden="true">·</span> <a href="http://aeyq.free.fr/">Aurélien Eyquem</a> <span aria-hidden="true">·</span> <a href="https://sites.google.com/site/coutteniermathieu/">Mathieu Couttenier</a></p>
       <p class="email-line"><span class="email-label">Email:</span> <a href="mailto:julian.marcoux@unil.ch">julian.marcoux@unil.ch</a></p>
+    </div>
+    <div class="dino-home">
+      <a class="dino-home-link" href="/one-dino-a-day/" aria-describedby="dino-home-note"><span aria-hidden="true">🦕</span> One Dino a Day</a>
+      <span class="dino-home-note" id="dino-home-note" role="tooltip">I was a huge dinosaur fan as a kid. I even wanted to be a paleontologist. So I made a little page that features a different dinosaur every day.</span>
     </div>
   </header>
 
@@ -219,6 +224,17 @@ document.querySelectorAll('.paper-disclosures').forEach(function(group){
     });
   });
   d.addEventListener('click',function(){d.close();}); /* click anywhere closes */
+})();
+(function(){
+  const dinoLink = document.querySelector('.dino-home');
+  const resetNote = () => dinoLink.classList.remove('note-dismissed');
+  dinoLink.addEventListener('pointerleave', resetNote);
+  dinoLink.addEventListener('focusout', resetNote);
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && dinoLink.matches(':hover, :focus-within')) {
+      dinoLink.classList.add('note-dismissed');
+    }
+  });
 })();
 </script>
 </body>
